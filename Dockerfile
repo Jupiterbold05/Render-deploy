@@ -9,8 +9,8 @@ RUN apt-get update && \
   npm i pm2 -g && \
   rm -rf /var/lib/apt/lists/*
   
-RUN git clone https://github.com/STAR-KING0/Queen_Alya  /root/Queen_Alya
-WORKDIR /root/Queen_Alya/
+RUN git clone https://github.com/Jupiterbold05/Platinum-V1 /root/Platinum-V1
+WORKDIR /root/Platinum-V1/
 
 
 COPY package.json .
